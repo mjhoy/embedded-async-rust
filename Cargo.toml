@@ -10,3 +10,10 @@ edition = "2018"
 aux14 = { path = "auxiliary" }
 futures = { version = "0.3.5", default-features = false }
 pin-utils = "0.1.0"
+cortex-m = "0.6.3"
+cortex-m-rt = "0.6.3"
+panic-itm = "0.4.0"
+
+[dependencies.f3]
+features = ["rt"]
+version = "0.6.1"

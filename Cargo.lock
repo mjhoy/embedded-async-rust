@@ -110,7 +110,11 @@ name = "embedded-async"
 version = "0.1.0"
 dependencies = [
  "aux14",
+ "cortex-m 0.6.3",
+ "cortex-m-rt",
+ "f3",
  "futures",
+ "panic-itm",
  "pin-utils",
 ]
 
