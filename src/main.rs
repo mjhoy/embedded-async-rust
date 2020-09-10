@@ -69,7 +69,6 @@ async fn get_compass(
     let y = ((y_h << 8) + y_l) as i16;
     let z = ((z_h << 8) + z_l) as i16;
 
-    // TODO: causes a hang
     delay::delay(500u16, tim6).await;
 
     (x, y, z)
